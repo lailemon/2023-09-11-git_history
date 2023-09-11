@@ -22,4 +22,6 @@
     -   `touch <FILENAME>`: create a new file, or change modification time to current
 
 -   `touch .gitignore`: create a git ignore file that stores all files (by filename) or specific file types (by *FILE EXTENSION, e.g., *.pdf)
-    `code .gitignore`: opens up the .gitignore file to make changes to the ignore list
+    -   `code .gitignore`: opens up the .gitignore file to make changes to the ignore list
+
+Here is a change that i don't really need
