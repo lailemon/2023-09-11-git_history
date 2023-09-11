@@ -23,3 +23,6 @@
 
 -   `touch .gitignore`: create a git ignore file that stores all files (by filename) or specific file types (by *FILE EXTENSION, e.g., *.pdf)
     `code .gitignore`: opens up the .gitignore file to make changes to the ignore list
+
+-   `revert <SHORTHASH>`: revert changes done in a certain commit, by creating a new commit -> nothing in history is lost/modified, but simply creating a new one
+    -   `git log --oneline`: shows all the commits with their shorthash to be used for reverting
