@@ -12,4 +12,8 @@
     -   `log --oneline`: shows the log in one line condenced format
     -   this may open a terminal program called `less` that lets you scroll, hit the letter `Q` to quit this program
 
--   `diff`: shows the modification details between local machine and the last commit. e.g., difference between local files and staging area
+-   `diff`: shows the modification details between local machine and the last commit. e.g., difference between local files and staging area; shows you the difference between your changes and hte last known commit
+    -   `diff --staged`: shows the modification details in the last commit - for checking staged changes
+    -   `diff<FILENAME>`: shows only the difference in a certain file instead of the whole git folder
+
+-   `restore --staged <FILENAME>`: unstages a file from the staging area
