@@ -1,4 +1,4 @@
-# 2023-09-11-git_history
+# DSCI 521: Lecture
 
 - `add< FILENAMES>`: adding the <FILENAMES> to the staging area
 
@@ -24,5 +24,7 @@
 -   `touch .gitignore`: create a git ignore file that stores all files (by filename) or specific file types (by *FILE EXTENSION, e.g., *.pdf)
     `code .gitignore`: opens up the .gitignore file to make changes to the ignore list
 
--   `revert <SHORTHASH>`: revert changes done in a certain commit, by creating a new commit -> nothing in history is lost/modified, but simply creating a new one
+-   `revert <SHA1 HASH>`: revert changes done in commit <SHA1 HASH>, by creating a new commit -> nothing in history is lost/modified, but simply creating a new one
     -   `git log --oneline`: shows all the commits with their shorthash to be used for reverting
+
+-   ``
