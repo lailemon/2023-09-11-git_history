@@ -27,4 +27,4 @@
 -   `revert <SHA1 HASH>`: revert changes done in commit <SHA1 HASH>, by creating a new commit -> nothing in history is lost/modified, but simply creating a new one
     -   `git log --oneline`: shows all the commits with their shorthash to be used for reverting
 
--   A new change updated on remote
+-   to fix conflicts, you need to manually edit the file
