@@ -28,3 +28,5 @@
     -   `git log --oneline`: shows all the commits with their shorthash to be used for reverting
 
 -   to fix conflicts, you need to manually edit the file
+
+- additional line for testing VS Code
